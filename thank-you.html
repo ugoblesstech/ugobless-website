@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b0e" />
+
+    <title>Thank You | UGOBLESS INTL.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        min-height: 100vh;
+        background: #090b0e;
+        color: #f5f1e8;
+        font-family: "DM Sans", sans-serif;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header {
+        padding: 24px 7%;
+        border-bottom: 1px solid #25282c;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        text-decoration: none;
+        color: #f5f1e8;
+      }
+
+      .brand img {
+        width: 65px;
+        height: 65px;
+        object-fit: contain;
+      }
+
+      .brand strong {
+        display: block;
+        font-family: "Playfair Display", serif;
+        font-size: 25px;
+        letter-spacing: 3px;
+      }
+
+      .brand small {
+        display: block;
+        color: #c9a45e;
+        letter-spacing: 4px;
+        margin-top: 4px;
+      }
+
+      .thank-you {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 60px 20px;
+      }
+
+      .content {
+        max-width: 720px;
+      }
+
+      .success-icon {
+        width: 75px;
+        height: 75px;
+        border: 1px solid #c9a45e;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #c9a45e;
+        font-size: 36px;
+        margin: 0 auto 30px;
+      }
+
+      .eyebrow {
+        color: #c9a45e;
+        font-size: 12px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(38px, 7vw, 65px);
+        line-height: 1.15;
+        margin-bottom: 25px;
+      }
+
+      h1 em {
+        color: #c9a45e;
+        font-weight: 500;
+      }
+
+      .message {
+        color: #b9bdc2;
+        font-size: 17px;
+        line-height: 1.8;
+        margin-bottom: 35px;
+      }
+
+      .button {
+        display: inline-block;
+        background: linear-gradient(120deg, #b58c47, #e5c17d);
+        color: #090b0e;
+        padding: 17px 30px;
+        text-decoration: none;
+        font-weight: 700;
+        letter-spacing: 1px;
+        transition: opacity 0.3s ease;
+      }
+
+      .button:hover {
+        opacity: 0.85;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 25px 15px;
+        border-top: 1px solid #25282c;
+        color: #85898e;
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+
+      @media (max-width: 600px) {
+        .header {
+          padding: 18px 6%;
+        }
+
+        .brand img {
+          width: 52px;
+          height: 52px;
+        }
+
+        .brand strong {
+          font-size: 21px;
+        }
+
+        .brand small {
+          font-size: 10px;
+        }
+
+        .message {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="brand" href="index.html">
+        <img
+          src="assets/ugobless-eagle-emblem.png"
+          alt="UGOBLESS eagle emblem"
+        />
+
+        <span>
+          <strong>UGOBLESS</strong>
+          <small>INTL. · EST. 2020</small>
+        </span>
+      </a>
+    </header>
+
+    <main class="thank-you">
+      <div class="content">
+        <div class="success-icon">✓</div>
+
+        <p class="eyebrow">MESSAGE RECEIVED</p>
+
+        <h1>
+          Thank you for<br />
+          <em>reaching out.</em>
+        </h1>
+
+        <p class="message">
+          Your message has been received successfully. We appreciate your
+          interest in UGOBLESS INTL. and look forward to connecting with you.
+        </p>
+
+        <a href="index.html" class="button"> RETURN TO HOMEPAGE ↗ </a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      BUILDING IDEAS. CREATING IMPACT.
+      <br /><br />
+      © 2026 UGOBLESS INTL. · EST. 2020
+    </footer>
+  </body>
+</html>
